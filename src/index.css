@@ -9,10 +9,55 @@ The @apply directive should not be used with the group utility class.
 
 @layer base {
   :root {
-   
+    --background: 0 0% 100%;
+    --foreground: 201 43% 19%;
+
+    --primary: 201 88% 29%;
+    --primary-foreground: 0 0% 100%;
+
+    --accent: 79 67% 56%;
+    --accent-foreground: 201 43% 19%;
+
+    --muted: 210 17% 95%;
+    --muted-foreground: 201 20% 40%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 201 43% 19%;
+
+    --border: 210 17% 90%;
+    --input: 210 17% 90%;
+    --ring: 201 88% 29%;
+
+    --radius: 0.5rem;
   }
 
   .dark {
+    --background: 201 43% 10%;
+    --foreground: 0 0% 98%;
 
+    --primary: 201 88% 35%;
+    --primary-foreground: 0 0% 100%;
+
+    --accent: 79 67% 56%;
+    --accent-foreground: 201 43% 19%;
+
+    --muted: 201 30% 18%;
+    --muted-foreground: 201 20% 70%;
+
+    --card: 201 35% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --border: 201 30% 25%;
+    --input: 201 30% 25%;
+    --ring: 201 88% 35%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 }

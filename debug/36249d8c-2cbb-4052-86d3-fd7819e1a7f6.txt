@@ -1,0 +1,250 @@
+2025-11-24T10:12:04.803Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/app/.claude.json'
+2025-11-24T10:12:04.804Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979124804
+2025-11-24T10:12:04.805Z [DEBUG] Setting permissions for new file: 600
+2025-11-24T10:12:04.805Z [DEBUG] Temp file written successfully, size: 103 bytes
+2025-11-24T10:12:04.805Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979124804 to /app/.claude.json
+2025-11-24T10:12:04.805Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:04.806Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2025-11-24T10:12:04.806Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2025-11-24T10:12:04.806Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2025-11-24T10:12:04.807Z [DEBUG] [LSP SERVER MANAGER] initialize() called
+2025-11-24T10:12:04.807Z [DEBUG] [LSP SERVER MANAGER] Calling getAllLspServers()
+2025-11-24T10:12:04.812Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979124812
+2025-11-24T10:12:04.812Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:04.813Z [DEBUG] Temp file written successfully, size: 183 bytes
+2025-11-24T10:12:04.813Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:04.813Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979124812 to /app/.claude.json
+2025-11-24T10:12:04.813Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:04.833Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979124833
+2025-11-24T10:12:04.833Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:04.833Z [DEBUG] Temp file written successfully, size: 220 bytes
+2025-11-24T10:12:04.834Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:04.834Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979124833 to /app/.claude.json
+2025-11-24T10:12:04.834Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:04.841Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2025-11-24T10:12:04.842Z [DEBUG] Total LSP servers loaded: 0
+2025-11-24T10:12:04.852Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2025-11-24T10:12:04.852Z [DEBUG] LSP manager initialized with 0 servers
+2025-11-24T10:12:04.854Z [DEBUG] LSP server manager initialized successfully
+2025-11-24T10:12:04.854Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2025-11-24T10:12:04.882Z [DEBUG] Loading skills from directories: managed=/etc/claude-code/.claude/skills, user=/app/skills, project=/app/.claude/skills
+2025-11-24T10:12:04.882Z [DEBUG] >>>>> getPluginSkills CALLED <<<<<
+2025-11-24T10:12:04.964Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2025-11-24T10:12:04.964Z [DEBUG] Looking for shell config file: /root/.bashrc
+2025-11-24T10:12:04.964Z [DEBUG] Snapshots directory: /app/shell-snapshots
+2025-11-24T10:12:04.966Z [DEBUG] Creating snapshot at: /app/shell-snapshots/snapshot-bash-1763979124964-2yjedf.sh
+2025-11-24T10:12:04.966Z [DEBUG] Shell binary exists: true
+2025-11-24T10:12:04.966Z [DEBUG] Execution timeout: 10000ms
+2025-11-24T10:12:04.972Z [DEBUG] Writing to temp file: /app/todos/36249d8c-2cbb-4052-86d3-fd7819e1a7f6-agent-36249d8c-2cbb-4052-86d3-fd7819e1a7f6.json.tmp.109.1763979124972
+2025-11-24T10:12:04.973Z [DEBUG] Temp file written successfully, size: 2 bytes
+2025-11-24T10:12:04.973Z [DEBUG] Renaming /app/todos/36249d8c-2cbb-4052-86d3-fd7819e1a7f6-agent-36249d8c-2cbb-4052-86d3-fd7819e1a7f6.json.tmp.109.1763979124972 to /app/todos/36249d8c-2cbb-4052-86d3-fd7819e1a7f6-agent-36249d8c-2cbb-4052-86d3-fd7819e1a7f6.json
+2025-11-24T10:12:04.973Z [DEBUG] File /app/todos/36249d8c-2cbb-4052-86d3-fd7819e1a7f6-agent-36249d8c-2cbb-4052-86d3-fd7819e1a7f6.json written atomically
+2025-11-24T10:12:04.976Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2025-11-24T10:12:04.976Z [DEBUG] Total plugin skills loaded: 0
+2025-11-24T10:12:04.976Z [DEBUG] Total plugin commands loaded: 0
+2025-11-24T10:12:04.976Z [DEBUG] Registered 0 hooks from 0 plugins
+2025-11-24T10:12:05.009Z [DEBUG] Loaded 0 unique skills (managed: 0, user: 0, project: 0, duplicates removed: 0)
+2025-11-24T10:12:05.009Z [DEBUG] getSkillsIfEnabled returning: 0 skill dir commands, 0 plugin skills
+2025-11-24T10:12:05.010Z [DEBUG] Total plugin agents loaded: 0
+2025-11-24T10:12:05.035Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2025-11-24T10:12:05.035Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:05.035Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2025-11-24T10:12:05.082Z [DEBUG] Total plugin output styles loaded: 0
+2025-11-24T10:12:05.145Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/vendor/ripgrep/x64-linux/rg)
+2025-11-24T10:12:05.149Z [DEBUG] Shell snapshot created successfully (1746 bytes)
+2025-11-24T10:12:05.154Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:12:05.154Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:12:05.154Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:12:05.154Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:12:05.156Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2025-11-24T10:12:05.156Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:05.156Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-24T10:12:05.170Z [DEBUG] Getting matching hook commands for SubagentStart with query: Explore
+2025-11-24T10:12:05.170Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:05.171Z [DEBUG] Matched 0 unique hooks for query "Explore" (0 before deduplication)
+2025-11-24T10:12:05.171Z [DEBUG] Getting matching hook commands for SubagentStart with query: Plan
+2025-11-24T10:12:05.171Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:05.171Z [DEBUG] Matched 0 unique hooks for query "Plan" (0 before deduplication)
+2025-11-24T10:12:05.176Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:05.177Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:05.266Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979125266
+2025-11-24T10:12:05.266Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:05.266Z [DEBUG] Temp file written successfully, size: 302 bytes
+2025-11-24T10:12:05.266Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:05.266Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979125266 to /app/.claude.json
+2025-11-24T10:12:05.267Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:05.268Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979125268
+2025-11-24T10:12:05.268Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:05.269Z [DEBUG] Temp file written successfully, size: 332 bytes
+2025-11-24T10:12:05.269Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:05.269Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979125268 to /app/.claude.json
+2025-11-24T10:12:05.269Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:05.274Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979125274
+2025-11-24T10:12:05.275Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:05.275Z [DEBUG] Temp file written successfully, size: 361 bytes
+2025-11-24T10:12:05.275Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:05.275Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979125274 to /app/.claude.json
+2025-11-24T10:12:05.275Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:05.292Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:05.292Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:05.355Z [ERROR] "Error: Error: 404 404 page not found\n    at D9.generate (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:436:20153)\n    at YT.makeStatusError (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:778:2195)\n    at YT.makeRequest (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:778:5419)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1729:2699\n    at async file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1729:2197\n    at async Ez5 (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1728:2364)\n    at async f92 (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:1729:2130)\n    at async ZMA (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2102:97)\n    at async m21 (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2102:306)"
+2025-11-24T10:12:06.227Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:06.943Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:06.953Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:07.926Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:09.421Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-24T10:12:09.421Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:09.421Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-24T10:12:09.728Z [DEBUG] Getting matching hook commands for SubagentStop with query: undefined
+2025-11-24T10:12:09.728Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:09.728Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-24T10:12:10.229Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-24T10:12:10.229Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-24T10:12:10.229Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-24T10:12:10.229Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-24T10:12:10.229Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-24T10:12:10.229Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.229Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.230Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-24T10:12:10.230Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.230Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.230Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-24T10:12:10.230Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.230Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.230Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-24T10:12:10.230Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.230Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.240Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-24T10:12:10.240Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.240Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.240Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-24T10:12:10.240Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.240Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.241Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-24T10:12:10.241Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.241Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.241Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-24T10:12:10.241Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:10.241Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:10.315Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:12:10.315Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:12:10.315Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:12:10.315Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:12:10.321Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:10.321Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:12.416Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:13.669Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-11-24T10:12:13.669Z [DEBUG] executePreToolHooks called for tool: Glob
+2025-11-24T10:12:13.670Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-11-24T10:12:13.670Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:13.670Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-24T10:12:13.670Z [DEBUG] Getting matching hook commands for PreToolUse with query: Glob
+2025-11-24T10:12:13.670Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:13.670Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-24T10:12:13.679Z [DEBUG] Writing to temp file: /app/.claude.json.tmp.109.1763979133679
+2025-11-24T10:12:13.679Z [DEBUG] Preserving file permissions: 100600
+2025-11-24T10:12:13.680Z [DEBUG] Temp file written successfully, size: 394 bytes
+2025-11-24T10:12:13.680Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:13.680Z [DEBUG] Renaming /app/.claude.json.tmp.109.1763979133679 to /app/.claude.json
+2025-11-24T10:12:13.680Z [DEBUG] File /app/.claude.json written atomically
+2025-11-24T10:12:13.689Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-11-24T10:12:13.689Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:13.689Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-24T10:12:13.703Z [DEBUG] Getting matching hook commands for PostToolUse with query: Glob
+2025-11-24T10:12:13.703Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:13.704Z [DEBUG] Matched 0 unique hooks for query "Glob" (0 before deduplication)
+2025-11-24T10:12:13.718Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:12:13.719Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:12:13.719Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:12:13.719Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:12:13.725Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:13.725Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:16.272Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:16.684Z [DEBUG] executePreToolHooks called for tool: Read
+2025-11-24T10:12:16.684Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2025-11-24T10:12:16.684Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:16.684Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:16.687Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2025-11-24T10:12:16.687Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:16.687Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2025-11-24T10:12:16.700Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:12:16.700Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:12:16.700Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:12:16.700Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:12:16.706Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:16.706Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:18.656Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:12:25.540Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-24T10:12:25.540Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-24T10:12:25.540Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:25.540Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-11-24T10:12:25.547Z [DEBUG] Writing to temp file: /app/src/index.css.tmp.109.1763979145547
+2025-11-24T10:12:25.547Z [DEBUG] Preserving file permissions: 100644
+2025-11-24T10:12:25.547Z [DEBUG] Temp file written successfully, size: 1284 bytes
+2025-11-24T10:12:25.547Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:12:25.547Z [DEBUG] Renaming /app/src/index.css.tmp.109.1763979145547 to /app/src/index.css
+2025-11-24T10:12:25.547Z [DEBUG] File /app/src/index.css written atomically
+2025-11-24T10:12:25.549Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-24T10:12:25.549Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:12:25.549Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-11-24T10:12:25.574Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:12:25.574Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:12:25.574Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:12:25.574Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:12:25.580Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:12:25.580Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:12:27.627Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:13:14.293Z [DEBUG] executePreToolHooks called for tool: Write
+2025-11-24T10:13:14.293Z [DEBUG] Getting matching hook commands for PreToolUse with query: Write
+2025-11-24T10:13:14.293Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:14.293Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-24T10:13:14.296Z [DEBUG] Writing to temp file: /app/src/pages/Index.tsx.tmp.109.1763979194296
+2025-11-24T10:13:14.296Z [DEBUG] Preserving file permissions: 100644
+2025-11-24T10:13:14.298Z [DEBUG] Temp file written successfully, size: 15381 bytes
+2025-11-24T10:13:14.298Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:13:14.298Z [DEBUG] Renaming /app/src/pages/Index.tsx.tmp.109.1763979194296 to /app/src/pages/Index.tsx
+2025-11-24T10:13:14.301Z [DEBUG] File /app/src/pages/Index.tsx written atomically
+2025-11-24T10:13:14.310Z [DEBUG] Getting matching hook commands for PostToolUse with query: Write
+2025-11-24T10:13:14.311Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:14.311Z [DEBUG] Matched 0 unique hooks for query "Write" (0 before deduplication)
+2025-11-24T10:13:14.334Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:13:14.334Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:13:14.334Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:13:14.334Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:13:14.339Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:13:14.339Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:13:16.476Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:13:21.823Z [DEBUG] executePreToolHooks called for tool: Edit
+2025-11-24T10:13:21.823Z [DEBUG] Getting matching hook commands for PreToolUse with query: Edit
+2025-11-24T10:13:21.823Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:21.823Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-11-24T10:13:21.826Z [DEBUG] Writing to temp file: /app/src/App.tsx.tmp.109.1763979201826
+2025-11-24T10:13:21.826Z [DEBUG] Preserving file permissions: 100644
+2025-11-24T10:13:21.826Z [DEBUG] Temp file written successfully, size: 674 bytes
+2025-11-24T10:13:21.826Z [DEBUG] Applied original permissions to temp file
+2025-11-24T10:13:21.826Z [DEBUG] Renaming /app/src/App.tsx.tmp.109.1763979201826 to /app/src/App.tsx
+2025-11-24T10:13:21.827Z [DEBUG] File /app/src/App.tsx written atomically
+2025-11-24T10:13:21.828Z [DEBUG] Getting matching hook commands for PostToolUse with query: Edit
+2025-11-24T10:13:21.828Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:21.828Z [DEBUG] Matched 0 unique hooks for query "Edit" (0 before deduplication)
+2025-11-24T10:13:21.851Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2025-11-24T10:13:21.851Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2025-11-24T10:13:21.851Z [DEBUG] Hooks: Found 0 total hooks in registry
+2025-11-24T10:13:21.851Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2025-11-24T10:13:21.860Z [DEBUG] Skills and commands included in Skill tool:
+2025-11-24T10:13:21.860Z [DEBUG] Slash commands included in SlashCommand tool:
+2025-11-24T10:13:24.135Z [DEBUG] Stream started - received first chunk
+2025-11-24T10:13:28.116Z [DEBUG] Getting matching hook commands for Stop with query: undefined
+2025-11-24T10:13:28.116Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:28.116Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2025-11-24T10:13:28.119Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2025-11-24T10:13:28.119Z [DEBUG] Found 0 hook matchers in settings
+2025-11-24T10:13:28.119Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)
+2025-11-24T10:13:28.120Z [DEBUG] Cleaned up session snapshot: /app/shell-snapshots/snapshot-bash-1763979124964-2yjedf.sh
+2025-11-24T10:13:28.120Z [DEBUG] LSP server manager shut down successfully
+2025-11-24T10:13:28.277Z [DEBUG] Failed to check metrics opt-out status: Request failed with status code 401
+2025-11-24T10:13:28.277Z [ERROR] "AxiosError: AxiosError: Request failed with status code 401\n    at fj (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:62:1137)\n    at IncomingMessage.<anonymous> (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:67:9858)\n    at IncomingMessage.emit (node:events:529:35)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at uVA.request (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:69:2130)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async OE3 (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2563:35825)\n    at async Z (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:367:29832)\n    at async a31 (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2563:36384)\n    at async xZ0.doExport (file:///usr/local/lib/node_modules/needware-cli/node_modules/@anthropic-ai/claude-agent-sdk/cli.js:2563:37069)"
+2025-11-24T10:13:28.278Z [DEBUG] Metrics export disabled by organization setting
+2025-11-24T10:13:28.278Z [DEBUG] BigQuery metrics exporter flush complete
+2025-11-24T10:13:28.278Z [DEBUG] BigQuery metrics exporter flush complete
+2025-11-24T10:13:28.278Z [DEBUG] BigQuery metrics exporter shutdown complete
